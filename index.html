@@ -314,7 +314,12 @@
 </body>
 <script>
 $(document).ready(function(){
+    
   $(".button1").click(function(){
+    $("html, body").animate({ 
+            scrollTop: 0 
+        }, "slow");
+        return false;
     // $("input").hide();
     $(".winner-text").hide();
     let convert = $("#convert").val()
