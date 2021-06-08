@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monali</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./flyingheart.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="container">
+    <div class="row">
+        <div class="col-sm-12 col-lg-4 ">
+
+            <div class=" col-sm-12 ">
+                <h1 class="text-center text-white  monali">Monali Bose</h1>
+                <!-- <h3 class="text-center text-danger">My Sheet</h3> -->
+            </div>
+            
+            <div class="heart-big md-col-3"></div>
+            <div>
+                <!-- **********************Flying Heart************************ -->
+                <ul class="hearts flying">
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                    <li class="heart"></li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="winner-text text-center  text-white">Check for the <br/> Winner </h2>
+                <h1 class="winner text-white text-center"></h1>
+               <center> <button class="btn btn-danger btn-sm d-none button-details mt-4 pl-4 pr-4">Details &#8595;</button></center>
+
+            </div>
+            <!-- Details section -->
+          
+                <div class="row justify-content-center">
+                    <table class=" table table-striped d-none  m-4 pl-4 " id="details">
+                        <thead class="thead-light">
+                        <tr>
+                            <th  scope="col-2">Company</th>
+                            <th  scope="col-2">Total Bid</th>
+                            <th  scope="col-2">Score</th>
+                        </tr>
+                        </thead>
+                        <tbody class="text-white">
+                        <tr>
+                            <td id="c1"></td>
+                            <td id="b1"></td>
+                            <td id="s1"></td>
+                        </tr>
+                        <tr>
+                            <td id="c2"></td>
+                            <td id="b2"></td>
+                            <td id="s2"></td>
+                        </tr>
+                        <tr>
+                            <td id="c3"></td>
+                            <td id="b3"></td>
+                            <td id="s3"></td>
+                        </tr>
+                        <tr>
+                            <td id="c4"></td>
+                            <td id="b4"></td>
+                            <td id="s4"></td>
+                        </tr>
+                        <tr>
+                            <td id="c5"></td>
+                            <td id="b5"></td>
+                            <td id="s5"></td>
+                        </tr>
+                        <tr>
+                            <td id="c6"></td>
+                            <td id="b6"></td>
+                            <td id="s6"></td>
+                        </tr>
+                        <tr>
+                            <td id="c7"></td>
+                            <td id="b7"></td>
+                            <td id="s7"></td>
+                        </tr>
+                        <tr>
+                            <td id="c8"></td>
+                            <td id="b8"></td>
+                            <td id="s8"></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+           
+            <!-- Details section -->
+        </div>
+        <!-- **********************Flying Heart Ends ************************ -->
+        <div class="form-box col-md-7 col-sm-12  ml-lg-5 p-4 frosted-glass">
+
+            <!-- <form action="" method="POST" class="ml-5"> -->
+                
+                
+                <!-- Row 0 -->
+                <div class="group  frosted-glass">
+
+
+                </div>
+                <!-- ROW 1 -->
+                <div class="row ">
+                    <div class="col">
+                        <label for="com1">Company</label>
+                        <input type="text" id="com1" class="form-control" placeholder="Company name">
+                    </div>
+                    <div class="col">
+                        <label for="tech-scr">Tech Score</label>
+                        <input type="text" id="tech-scr1" class="form-control" placeholder="Tech score" >
+                    </div>
+                    <div class="col">
+                        <label for="international">Int Bid</label>
+                        <input type="text" id="international1" class="form-control" placeholder="Int Bid" >
+                    </div>
+                    <div class="col">
+                        <label for="national">Nat Bid</label>
+                        <input type="text" id="national1" class="form-control" placeholder="Nat Bid" >
+                    </div>
+                </div>
+                <!-- ROW 2 -->
+                <div class="row ">
+                    <div class="col">
+                        <!-- <label for="com1">Company Name</label> -->
+                        <input type="text" id="com2" class="form-control" placeholder="Company name">
+                    </div>
+                    <div class="col">
+                        <!-- <label for="tech-scr">Tech Score</label> -->
+                        <input type="text" id="tech-scr2" class="form-control" placeholder="Tech score" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="international">Int Bid</label> -->
+                        <input type="text" id="international2" class="form-control" placeholder="Int Bid" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="national">Nat Bid</label> -->
+                        <input type="text" id="national2" class="form-control" placeholder="Nat Bid" >
+                    </div>
+                </div>
+                <!-- ROW 3 -->
+                <div class="row ">
+                    <div class="col">
+                        <!-- <label for="com1">Company Name</label> -->
+                        <input type="text" id="com3" class="form-control" placeholder="Company name">
+                    </div>
+                    <div class="col">
+                        <!-- <label for="tech-scr">Tech Score</label> -->
+                        <input type="text" id="tech-scr3" class="form-control" placeholder="Tech score" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="international">Int Bid</label> -->
+                        <input type="text" id="international3" class="form-control" placeholder="Int Bid" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="national">Nat Bid</label> -->
+                        <input type="text" id="national3" class="form-control" placeholder="Nat Bid" >
+                    </div>
+                </div>
+                <!-- ROW 4 -->
+                <div class="row ">
+                    <div class="col">
+                        <!-- <label for="com1">Company Name</label> -->
+                        <input type="text" id="com4" class="form-control" placeholder="Company name">
+                    </div>
+                    <div class="col">
+                        <!-- <label for="tech-scr">Tech Score</label> -->
+                        <input type="text" id="tech-scr4" class="form-control" placeholder="Tech score" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="international">Int Bid</label> -->
+                        <input type="text" id="international4" class="form-control" placeholder="Int Bid" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="national">Nat Bid</label> -->
+                        <input type="text" id="national4" class="form-control" placeholder="Nat Bid" >
+                    </div>
+                </div>
+                <!-- ROW 5 -->
+                <div class="row ">
+                    <div class="col">
+                        <!-- <label for="com1">Company Name</label> -->
+                        <input type="text" id="com5" class="form-control" placeholder="Company name">
+                    </div>
+                    <div class="col">
+                        <!-- <label for="tech-scr">Tech Score</label> -->
+                        <input type="text" id="tech-scr5" class="form-control" placeholder="Tech score" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="international">Int Bid</label> -->
+                        <input type="text" id="international5" class="form-control" placeholder="Int Bid" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="national">Nat Bid</label> -->
+                        <input type="text" id="national5" class="form-control" placeholder="Nat Bid"  >
+                    </div>
+                </div>
+                
+                <!-- ROW 6 -->
+                <div class="row ">
+                    <div class="col">
+                        <!-- <label for="com6">Company Name</label> -->
+                        <input type="text" id="com6" class="form-control" placeholder="Company name">
+                    </div>
+                    <div class="col">
+                        <!-- <label for="tech-scr">Tech Score</label> -->
+                        <input type="text" id="tech-scr6" class="form-control" placeholder="Tech score" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="international">Int Bid</label> -->
+                        <input type="text" id="international6" class="form-control" placeholder="Int Bid" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="national">Nat Bid</label> -->
+                        <input type="text" id="national6" class="form-control" placeholder="Nat Bid"  >
+                    </div>
+                </div>
+               
+                <!-- ROW 7 -->
+                <div class="row ">
+                    <div class="col">
+                        <!-- <label for="com7">Company Name</label> -->
+                        <input type="text" id="com7" class="form-control" placeholder="Company name">
+                    </div>
+                    <div class="col">
+                        <!-- <label for="tech-scr7">Tech Score</label> -->
+                        <input type="text" id="tech-scr7" class="form-control" placeholder="Tech score" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="international7">Int Bid</label> -->
+                        <input type="text" id="international7" class="form-control" placeholder="Int Bid" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="national">Nat Bid</label> -->
+                        <input type="text" id="national7" class="form-control" placeholder="Nat Bid"  >
+                    </div>
+                </div>
+               
+                <!-- ROW 8 -->
+                <div class="row ">
+                    <div class="col">
+                        <!-- <label for="com8">Company Name</label> -->
+                        <input type="text" id="com8" class="form-control" placeholder="Company name">
+                    </div>
+                    <div class="col">
+                        <!-- <label for="tech-scr">Tech Score</label> -->
+                        <input type="text" id="tech-scr8" class="form-control" placeholder="Tech score" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="international">Int Bid</label> -->
+                        <input type="text" id="international8" class="form-control" placeholder="Int Bid" >
+                    </div>
+                    <div class="col">
+                        <!-- <label for="national">Nat Bid</label> -->
+                        <input type="text" id="national8" class="form-control" placeholder="Nat Bid"  >
+                    </div>
+                </div>
+
+                <!-- Optional Part -->
+                <div class="row frosted-glass p-4"id ="x" >
+
+                    <div class="col d-none">
+                        <label for="com1">International Currency</label>
+                        <select name="int-cur" id="int-cur" class="form-control">
+                            <option value="usd">USD</option>
+                            <option value="euro">EURO</option>
+                        </select>
+                    </div>
+                    <div class="col d-none">
+                        <label for="com1">National Currency</label>
+                        <select name="int-cur" id="int-cur" class="form-control">
+                            <option value="">Select..</option>
+                            <option value="ksh">KSH</option>
+                            <option value="zmw">ZMW</option>
+                            <option value="etb">ETB</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="convert">Enter Convertion rate</label>
+                        <input type="text" id="convert" class="form-control" placeholder="Convertion rate" required>
+                    </div>
+            </div>
+
+                <div class="row justify-content-end mt-3">
+                    <button class="btn btn-danger col button1" type="submit" value="submit" >Calculate</button>
+                </div>
+
+                
+
+                
+             
+
+            
+            
+            <!-- </form> -->
+
+            
+        </div>
+    </div>
+</body>
+<script>
+$(document).ready(function(){
+  $(".button1").click(function(){
+    // $("input").hide();
+    $(".winner-text").hide();
+    let convert = $("#convert").val()
+    let total1=($("#international1").val()*convert)+parseInt(($("#national1").val()))
+    let total2=($("#international2").val()*convert)+parseInt(($("#national2").val()))
+    let total3=($("#international3").val()*convert)+parseInt(($("#national3").val()))
+    let total4=($("#international4").val()*convert)+parseInt(($("#national4").val()))
+    let total5=($("#international5").val()*convert)+parseInt(($("#national5").val()))
+    let total6=($("#international6").val()*convert)+parseInt(($("#national6").val()))
+    let total7=($("#international7").val()*convert)+parseInt(($("#national7").val()))
+    let total8=($("#international8").val()*convert)+parseInt(($("#national8").val()))
+    
+    console.log(total1);
+    console.log(total2);
+    console.log(total3);
+    console.log(total4);
+    console.log(total5);
+
+    // let arr = [total1, total2,total3,total4,total5]
+    let arr =[];
+    total1 >0 ? arr.push(total1):"";
+    total2 >0 ? arr.push(total2):"";
+    total3 >0 ? arr.push(total3):"";
+    total4 >0 ? arr.push(total4):"";
+    total5 >0 ? arr.push(total5):"";
+    total6 >0 ? arr.push(total6):"";
+    total7 >0 ? arr.push(total7):"";
+    total8 >0 ? arr.push(total8):"";
+
+    min=Math.min.apply(null, arr)
+    
+    console.log(min);
+
+    let fin1 = min/total1*0.2
+    let fin2 = min/total2*0.2
+    let fin3 = min/total3*0.2
+    let fin4 = min/total4*0.2
+    let fin5 = min/total5*0.2
+    let fin6 = min/total6*0.2
+    let fin7 = min/total7*0.2
+    let fin8 = min/total8*0.2
+
+    let tec1 = (($("#tech-scr1").val())* 0.8)+(fin1)
+    let tec2 = (($("#tech-scr2").val())* 0.8)+(fin2)
+    let tec3 = (($("#tech-scr3").val())* 0.8)+(fin3)
+    let tec4 = (($("#tech-scr4").val())* 0.8)+(fin4)
+    let tec5 = (($("#tech-scr5").val())* 0.8)+(fin5)
+    let tec6 = (($("#tech-scr6").val())* 0.8)+(fin6)
+    let tec7 = (($("#tech-scr7").val())* 0.8)+(fin7)
+    let tec8 = (($("#tech-scr8").val())* 0.8)+(fin8)
+    
+    let hiarr=[]
+    tec1 >0 ? hiarr.push(tec1):""
+    tec2 >0 ? hiarr.push(tec2):""
+    tec3 >0 ? hiarr.push(tec3):""
+    tec4 >0 ? hiarr.push(tec4):""
+    tec5 >0 ? hiarr.push(tec5):""
+    tec6 >0 ? hiarr.push(tec6):""
+    tec7 >0 ? hiarr.push(tec7):""
+    tec8 >0 ? hiarr.push(tec8):""
+
+    max=Math.max.apply(null, hiarr)
+
+    console.log("max : ",max);
+
+    console.log("tech1 : ",tec1);
+    console.log("tech2 : ",tec2);
+    console.log("tech3 : ",tec3);
+    console.log("tech4 : ",tec4);
+    console.log("tech5 : ",tec5);
+    console.log("tech5 : ",tec6);
+    console.log("tech5 : ",tec7);
+    console.log("tech5 : ",tec8);
+
+    let winner = ""
+    tec1=== max? winner=$("#com1").val():""
+    tec2=== max? winner=$("#com2").val():""
+    tec3=== max? winner=$("#com3").val():""
+    tec4=== max? winner=$("#com4").val():""
+    tec5=== max? winner=$("#com5").val():""
+    tec6=== max? winner=$("#com6").val():""
+    tec7=== max? winner=$("#com7").val():""
+    tec8=== max? winner=$("#com8").val():""
+
+    // console.log("Winner is : ",winner);
+
+    
+    $(".winner").html("<h3>Winner is </h3>"+winner+"<h2>Score : "+max.toFixed(3)+"</h2>");
+
+    // Displaying the table data
+    // $("#details").addClass("d-block")
+    //adding data to table
+
+    $("#c1").html($("#com1").val())
+    $("#c2").html($("#com2").val())
+    $("#c3").html($("#com3").val())
+    $("#c4").html($("#com4").val())
+    $("#c5").html($("#com5").val())
+    $("#c6").html($("#com6").val())
+    $("#c7").html($("#com7").val())
+    $("#c8").html($("#com8").val())
+    
+    tec1 > 0 ? $("#s1").html(tec1.toFixed(3)):""
+    tec2 > 0 ? $("#s2").html(tec2.toFixed(3)):""
+    tec3 > 0 ? $("#s3").html(tec3.toFixed(3)):""
+    tec4 > 0 ? $("#s4").html(tec4.toFixed(3)):""
+    tec5 > 0 ? $("#s5").html(tec5.toFixed(3)):""
+    tec6 > 0 ? $("#s6").html(tec6.toFixed(3)):""
+    tec7 > 0 ? $("#s7").html(tec7.toFixed(3)):""
+    tec8 > 0 ? $("#s8").html(tec8.toFixed(3)):""
+
+    total1 > 0 ? $("#b1").html(total1.toFixed(2)):""
+    total2 > 0 ? $("#b2").html(total2.toFixed(2)):""
+    total3 > 0 ? $("#b3").html(total3.toFixed(2)):""
+    total4 > 0 ? $("#b4").html(total4.toFixed(2)):""
+    total5 > 0 ? $("#b5").html(total5.toFixed(2)):""
+    total6 > 0 ? $("#b6").html(total6.toFixed(2)):""
+    total7 > 0 ? $("#b7").html(total7.toFixed(2)):""
+    total8 > 0 ? $("#b8").html(total8.toFixed(2)):""
+
+    console.log("total 1 : "+ total1);
+    console.log("total 2 : "+ total2);
+    console.log("total 3 : "+ total3);
+    console.log("total 4 : "+ total4);
+    console.log("total 5 : "+ total5);
+    console.log("total 6 : "+ total6);
+    console.log("total 7 : "+ total7);
+    console.log("total 8 : "+ total8);
+
+    $(".button-details").addClass("d-block ") 
+  });
+  $(".button-details").click(function(){
+    $("#details").toggleClass("d-block");
+    });
+
+
+ 
+});
+
+
+
+</script>
+</html>
