@@ -93,3 +93,11 @@ label {
 table {
   z-index: 99;
 }
+
+.form-control {
+  /* margin: 4px; */
+}
+.col {
+  margin: 0;
+  padding: 4px;
+}
