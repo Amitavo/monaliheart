@@ -320,28 +320,26 @@
     </div>
 </body>
 <script>
+    
 $(document).ready(function(){
-    let fp=0.2;
-    let tp=0.8;
-    let x=$( "#seventy" ).val();
-    console.log(x);
-    fp=0.3
-    tp=0.7
+
+   
     
     
   $(".button1").click(function(){
-    // Assigning value for fp and tp
 
-    if ( $( "#seventy" ).is( ":checked" ) ) {
-        let fp = 0.3;
-     let tp = 0.7;
-     
-        
-    }else{
-            let fp = 0.2;
-            let tp = 0.8;      
+   let xx = $('#seventy').is(":checked")
+   console.log("value of xx :"+xx);
+    
+    // Assigning value for fp and tp
+    if ( xx===false) {
+        var fp = 0.2;
+        var tp = 0.8; 
+    }else{  
+        var fp = 0.3;
+        var tp = 0.7;      
     }  
-   
+   console.log("tp fp"+fp,tp);
 
     $("html, body").animate({ 
             scrollTop: 0 
@@ -411,16 +409,16 @@ $(document).ready(function(){
 
     max=Math.max.apply(null, hiarr)
 
-    console.log("max : ",max);
+    // console.log("max : ",max);
 
-    console.log("tech1 : ",tec1);
-    console.log("tech2 : ",tec2);
-    console.log("tech3 : ",tec3);
-    console.log("tech4 : ",tec4);
-    console.log("tech5 : ",tec5);
-    console.log("tech5 : ",tec6);
-    console.log("tech5 : ",tec7);
-    console.log("tech5 : ",tec8);
+    // console.log("tech1 : ",tec1);
+    // console.log("tech2 : ",tec2);
+    // console.log("tech3 : ",tec3);
+    // console.log("tech4 : ",tec4);
+    // console.log("tech5 : ",tec5);
+    // console.log("tech5 : ",tec6);
+    // console.log("tech5 : ",tec7);
+    // console.log("tech5 : ",tec8);
 
     let winner = ""
     tec1=== max? winner=$("#com1").val():""
@@ -468,14 +466,14 @@ $(document).ready(function(){
     total7 > 0 ? $("#b7").html(total7.toFixed(2)):""
     total8 > 0 ? $("#b8").html(total8.toFixed(2)):""
 
-    console.log("total 1 : "+ total1);
-    console.log("total 2 : "+ total2);
-    console.log("total 3 : "+ total3);
-    console.log("total 4 : "+ total4);
-    console.log("total 5 : "+ total5);
-    console.log("total 6 : "+ total6);
-    console.log("total 7 : "+ total7);
-    console.log("total 8 : "+ total8);
+    // console.log("total 1 : "+ total1);
+    // console.log("total 2 : "+ total2);
+    // console.log("total 3 : "+ total3);
+    // console.log("total 4 : "+ total4);
+    // console.log("total 5 : "+ total5);
+    // console.log("total 6 : "+ total6);
+    // console.log("total 7 : "+ total7);
+    // console.log("total 8 : "+ total8);
 
     $(".button-details").addClass("d-inline ") 
   });
