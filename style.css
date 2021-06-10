@@ -92,6 +92,7 @@ label {
 }
 table {
   z-index: 99;
+  border-radius: 100px;
 }
 
 .form-control {
