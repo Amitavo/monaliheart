@@ -47,8 +47,8 @@
             </div>
             <!-- Details section -->
           
-                <div class="row justify-content-center">
-                    <table class=" table table-striped d-none  m-4 pl-4 " id="details">
+                <div class=" ">
+                    <table class=" table table-striped mt-4 d-none"  id="details">
                         <thead class="thead-light">
                         <tr>
                             <th  scope="col-2">Company</th>
@@ -412,7 +412,7 @@ $(document).ready(function(){
     // console.log("Winner is : ",winner);
 
     let project = $("#project").val();
-    $(".winner").html("<h2> Project Name: "+project+"</h2> <h3>Winner is </h3>"+winner+"<h2>Score : "+max.toFixed(3)+"</h2>");
+    $(".winner").html("<h3> Project Name : "+project+"</h3> <h3>Winner is </h3>"+winner+"<h2>Score : "+max.toFixed(3)+"</h2>");
 
     // Displaying the table data
     // $("#details").addClass("d-block")
@@ -457,7 +457,7 @@ $(document).ready(function(){
     $(".button-details").addClass("d-block ") 
   });
   $(".button-details").click(function(){
-    $("#details").toggleClass("d-block");
+    $("#details").toggleClass("d-table");
     });
 
 
