@@ -89,7 +89,7 @@ label {
   backdrop-filter: blur(10px);
 }
 table {
-  z-index: 99;
+  z-index: 999;
   border-radius: 10px;
   border: 1px solid white;
 }
